@@ -32,7 +32,7 @@ export default function Header() {
               Home
             </li>
             <li
-              className={`curson-pointer py-3 text-sm border-b-[3px] border-b-transparent font-semibold text-gray-400 ${
+              className={`cursor-pointer py-3 text-sm border-b-[3px] border-b-transparent font-semibold text-gray-400 ${
                 pathMathRoute("/offers") && "!text-black !border-b-red-500"
               }`}
               onClick={() => navigate("/offers")}
